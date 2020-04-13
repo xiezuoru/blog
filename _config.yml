@@ -8,9 +8,9 @@
 
 title: 谢作如的技术博客
 description: 主要用来介绍Jupyter Notebooks.
-github_username: 谢作如
+github_username: xiezuoru
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "fastpages"
+github_repo: "blog"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
@@ -34,7 +34,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #
 # 3. You must replace the parameter `baseurl` in _action_files/settings.ini with the same value as you set here but WITHOUT QUOTES.
 #
-baseurl: "" # the subpath of your site, e.g. "/blog".
+baseurl: "/blog" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
