@@ -15,3 +15,5 @@
 用fastpages生成的博客，没有广告。从此不用再受新浪、知乎之类的垃圾服务了。
 
 fastpages是一个很好的具体请访问：https://github.com/fastai/fastpages
+
+如果你想也生成一个，请点击这里：https://github.com/xiezuoru/generate
