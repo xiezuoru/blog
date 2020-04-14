@@ -1,8 +1,14 @@
-# 谢作如的博客
+# 谢作如的技术博客
 
 ## 内容介绍
 
 用来介绍jupyter和Python的学习，介绍自己的各种心得。
+
+## 链接
+
+谢作如的个人空间（主页）：https://xiezuoru.github.io/
+
+谢作如的教育博客：https://xiezuoru.github.io/blog/
 
 ## 技术介绍
 
