@@ -1,4 +1,4 @@
-# 谢作如的技术博客
+# 谢作如的网络笔记
 
 ## 内容介绍
 
@@ -8,7 +8,7 @@
 
 谢作如的个人空间（主页）：https://xiezuoru.github.io/
 
-谢作如的教育博客：https://xiezuoru.github.io/blog/
+谢作如的网络笔记：https://xiezuoru.github.io/blog/
 
 ## 技术介绍
 
