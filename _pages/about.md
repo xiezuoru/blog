@@ -1,13 +1,19 @@
 ---
 layout: page
-title: About Me
+title: 个人介绍
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+## 工作经历
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+  从事教育，并全身心投入。教过语文、数学、科学和技术，目前为普通高中信息技术教师。
 
+## 研究方向
 
+  - 教育方面。走上讲台数十年，专注于各种跨学科学习，尤其是以技术为核心的跨学科学习，如创客教育、STEM教育和人工智能教育等等。
+  - 技术方面。Web开发、Python……
 
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+## 最想说的话
+
+  “虚谷计划”联合发起人。
+
