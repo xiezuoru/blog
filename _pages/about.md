@@ -27,5 +27,5 @@ permalink: /about/
 
 #### 博客和专栏
 
-  - 新浪博客。[](http://blog.sina.com.cn/xiezuoru)
-  - 知乎专栏。[](https://zhuanlan.zhihu.com/xiezuoru)
+  - 新浪博客。[点击访问](http://blog.sina.com.cn/xiezuoru)
+  - 知乎专栏。[点击访问](https://zhuanlan.zhihu.com/xiezuoru)
