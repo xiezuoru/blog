@@ -73,10 +73,10 @@ default_badges:
   colab: true
 
 # Everything below here should be left alone. Modifications may break fastpages
-#   - jekyll-feed
 future: true
 theme: minima
 plugins:
+  - jekyll-feed
   - jekyll-gist
   - jekyll-octicons
   - jekyll-toc
