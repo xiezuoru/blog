@@ -15,14 +15,16 @@ permalink: /production/
 	2.采用不同的软件，基本类似的课程框架，适合不同学段的学生。
 
 #### ArduBlock版本（中学版）
-	- 购买地址：https://item.jd.com/12155320.html
-	- 资源链接：https://github.com/xiezuoru/xzrbook/tree/master/Arduino%E5%88%9B%E6%84%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E5%88%97/ArduBlock%E7%89%88%E6%9C%AC%EF%BC%88%E4%B8%AD%E5%AD%A6%E7%89%88%EF%BC%89
+	- 购买地址：[点击访问京东](https://item.jd.com/12155320.html)
+	- 资源链接：[点击访问github](https://github.com/xiezuoru/xzrbook/tree/master/Arduino%E5%88%9B%E6%84%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E5%88%97/ArduBlock%E7%89%88%E6%9C%AC%EF%BC%88%E4%B8%AD%E5%AD%A6%E7%89%88%EF%BC%89)
+
 #### Mixly版本（小学版）
-	- 购买地址：https://item.jd.com/12076049.html
-	- 资源链接：https://github.com/xiezuoru/xzrbook/tree/master/Arduino%E5%88%9B%E6%84%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E5%88%97/Mixly%E7%89%88%E6%9C%AC%EF%BC%88%E5%B0%8F%E5%AD%A6%E7%89%88%EF%BC%89
+	- 购买地址：[点击访问京东](https://item.jd.com/12076049.html)
+	- 资源链接：[点击访问github](https://github.com/xiezuoru/xzrbook/tree/master/Arduino%E5%88%9B%E6%84%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E5%88%97/Mixly%E7%89%88%E6%9C%AC%EF%BC%88%E5%B0%8F%E5%AD%A6%E7%89%88%EF%BC%89)
+
 #### Mind+版本（小学版）
 	 出版中
-	 - 资源链接：https://github.com/xiezuoru/xzrbook/tree/master/Arduino%E5%88%9B%E6%84%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E5%88%97/Mind%2B%E7%89%88%E6%9C%AC%EF%BC%88%E5%B0%8F%E5%AD%A6%E7%89%88%EF%BC%89
+	 - 资源链接：[点击访问github](https://github.com/xiezuoru/xzrbook/tree/master/Arduino%E5%88%9B%E6%84%8F%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%B3%BB%E5%88%97/Mind%2B%E7%89%88%E6%9C%AC%EF%BC%88%E5%B0%8F%E5%AD%A6%E7%89%88%EF%BC%89)
 
 ### 其他技术教材系列
 
@@ -30,8 +32,8 @@ permalink: /production/
 
 ## 我编写的课程
 
-  - 虚谷物联：https://siot.readthedocs.io/zh_CN/latest/
-  - 虚谷号入门：https://vvboard.readthedocs.io/zh_CN/latest/
+  - 虚谷物联：[https://siot.readthedocs.io/](https://siot.readthedocs.io/zh_CN/latest/)
+  - 虚谷号入门：[https://vvboard.readthedocs.io/](https://vvboard.readthedocs.io/zh_CN/latest/)
 
 ## 我参与设计的开源项目
 
