@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2020-04-21T20:53:38-05:00</updated><id>/blog/feed.xml</id><title type="html">谢作如的网络笔记</title><subtitle>专注于以技术为核心的跨学科学习.</subtitle><entry><title type="html">【教程】用github协同共建一个“开源”网站</title><link href="/blog/2020/04/21/%E6%95%99%E7%A8%8B-%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99.html" rel="alternate" type="text/html" title="【教程】用github协同共建一个“开源”网站" /><published>2020-04-21T00:00:00-05:00</published><updated>2020-04-21T00:00:00-05:00</updated><id>/blog/2020/04/21/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA%E2%80%9C%E5%BC%80%E6%BA%90%E2%80%9D%E7%BD%91%E7%AB%99</id><content type="html" xml:base="/blog/2020/04/21/%E6%95%99%E7%A8%8B-%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99.html">&lt;p&gt;用GitHub协同共建一个“开源”网站&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2020-04-22T08:33:59-05:00</updated><id>/blog/feed.xml</id><title type="html">谢作如的网络笔记</title><subtitle>专注于以技术为核心的跨学科学习.</subtitle><entry><title type="html">【教程】用github协同共建一个“开源”网站</title><link href="/blog/2020/04/21/%E6%95%99%E7%A8%8B-%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99.html" rel="alternate" type="text/html" title="【教程】用github协同共建一个“开源”网站" /><published>2020-04-21T00:00:00-05:00</published><updated>2020-04-21T00:00:00-05:00</updated><id>/blog/2020/04/21/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA%E2%80%9C%E5%BC%80%E6%BA%90%E2%80%9D%E7%BD%91%E7%AB%99</id><content type="html" xml:base="/blog/2020/04/21/%E6%95%99%E7%A8%8B-%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99.html">&lt;p&gt;用GitHub协同共建一个“开源”网站&lt;/p&gt;
 
 &lt;p&gt;浙江省温州中学 谢作如&lt;/p&gt;
 
@@ -429,11 +429,43 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;“创意物化”能力是《中小学综合实践活动课程指导纲要》提出的四大能力之一。《纲要》提出要让学生积极参与动手操作实践，熟练掌握多种操作技能，能够综合运用技能解决生活中的复杂问题。以激光切割机为工具，设计并加工各种创意立体模型，是综合实践活动中的“设计制作”重要的活动选题方向。这类活动的实施过程安全、快速，实施成本低廉，能有效增强学生的创意设计、动手操作、技术应用和物化能力。MakerBrush软件很好地降低了中小学生设计立体模型的技术门槛，其所见即所得的特征，让教学变得更加生动有趣，值得老师们积极尝试。&lt;/p&gt;</content><author><name></name></author><summary type="html">MakerBrush结合激光切割机设计立体模型</summary></entry><entry><title type="html">在网页上画画</title><link href="/blog/python/jupyter/2020/04/14/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB.html" rel="alternate" type="text/html" title="在网页上画画" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/blog/python/jupyter/2020/04/14/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB</id><content type="html" xml:base="/blog/python/jupyter/2020/04/14/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB.html">&lt;!--
+&lt;p&gt;“创意物化”能力是《中小学综合实践活动课程指导纲要》提出的四大能力之一。《纲要》提出要让学生积极参与动手操作实践，熟练掌握多种操作技能，能够综合运用技能解决生活中的复杂问题。以激光切割机为工具，设计并加工各种创意立体模型，是综合实践活动中的“设计制作”重要的活动选题方向。这类活动的实施过程安全、快速，实施成本低廉，能有效增强学生的创意设计、动手操作、技术应用和物化能力。MakerBrush软件很好地降低了中小学生设计立体模型的技术门槛，其所见即所得的特征，让教学变得更加生动有趣，值得老师们积极尝试。&lt;/p&gt;</content><author><name></name></author><summary type="html">MakerBrush结合激光切割机设计立体模型</summary></entry><entry><title type="html">【随笔】为梁森山新书写的序</title><link href="/blog/2020/04/14/%E9%9A%8F%E7%AC%94-%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F.html" rel="alternate" type="text/html" title="【随笔】为梁森山新书写的序" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/blog/2020/04/14/%E3%80%90%E9%9A%8F%E7%AC%94%E3%80%91%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F</id><content type="html" xml:base="/blog/2020/04/14/%E9%9A%8F%E7%AC%94-%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F.html">&lt;p&gt;给梁森山新书写的序：创客教育何以持续十年&lt;/p&gt;
+
+&lt;p&gt;2017年，我应邀参加第三届中国教育创新成果公益博览会活动。我校报送的教学成果《“课程、空间、活动”三位一体的创客教育实践》获得了SERVE大奖。按照组委会要求，我需要在领奖仪式上做一分钟的演讲。如果从2008年建立科技制作社开始算起，我的创客教育已经持续了九年。用一分钟来归纳九年的工作，难度自然很大。转念一想，组委会实际上是要求我，用最简洁的话来回答三个问题：&lt;/p&gt;
+
+&lt;p&gt;1.为什么做创客教育？&lt;/p&gt;
+
+&lt;p&gt;2.创客教育做得怎么样了？&lt;/p&gt;
+
+&lt;p&gt;3.接下来准备怎么做创客教育？&lt;/p&gt;
+
+&lt;p&gt;经过一周时间的反复思考，我写下了如下一段话：&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;当我决定温州中学创客空间要向全校开放的时候，并没有意识到自己已经打开了一扇新的教育大门。几年后，总有老师、校长、专家问我，创客教育该怎么做。今天我来到这里，想告诉所有的关注创客教育的教育者，创客教育不是仅仅建一个高大上的创客空间，也不是仅仅带学生去获几个国家大奖，申报几个发明专利，而是应该从课程、空间和活动，多个维度去实施。没有课程，我们的学生不知道如何“造物”；没有空间，我们的学生没有地方“造物”；没有活动，如何让更多的孩子爱上“造物”？感谢教博会给我机会，给温州中学机会，给中国创客教育机会。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;估计很少有人用这样的话来作为教学成果的领奖感言。但我清楚地知道，这段话能够很好地表达我的初心。2015年国内创客教育爆发，我最担心的莫过于全国各地兴起大建创客空间的风气，然后投入多的学校就成为了当地实施创客教育的典范。我还担心有些教育管理部门，用获奖次数和等级作为重要标准来评价学校的创客教育实施情况。这些做法对还处于萌芽阶段的创客教育来说是有害无益的，不仅会伤害了一批踏踏实实做创客教育的学校，还会将创客教育导向形式主义。&lt;/p&gt;
+
+&lt;p&gt;我在台上演讲的时候，老梁（我们对梁森山老师的称呼）就在现场。他是来参加我校负责的特别节目——一个以“展望创客教育十年”为主题的沙龙活动。严格说，他和吴俊杰、傅骞、丁书林等老师，是专门来为我鼓掌的。这颇让我感动。在那段颇为困难的时期，我们彼此之间都有了那种抱团取暖、相互依赖的特殊感情。&lt;/p&gt;
+
+&lt;p&gt;创客教育的实施，需要“课程、空间、活动”三位一体。这已经成为我们这批教育创客们的共识。“课程、空间、活动”其实还是评价创客教育的几个重要维度。对有钱的学校来说，建一个创客空间或许很容易，但同时还要开设课程，组织创客活动就不容易做到了，这要真刀真枪地干起来。同样，那些以科创竞赛获奖而出名的学校，我们也可以用这样的评价指标，引导他们除了参加竞赛，还要开设普惠的课程，要建设能够向所有学生开放的创客空间。&lt;/p&gt;
+
+&lt;p&gt;为了有效引领国内的创客教育，老梁在幕后做了很多努力。在我们的圈子内部，往往用“扫地僧”来称呼他。2015年，他花了很多精力编写了一本《中国创客教育蓝皮书（基础教育版）》，记录创客教育发展史上的一些故事，成为研究中国创客教育的必读书籍。他还通过各种人脉，帮我们这些早期教育创客建立一个组织，就是大家熟悉的中国电子学会现代教育技术分会创客教育专委会（现在更名为中国电子学会现代教育技术分会创客教育专家组），每年一次的STEAM教育大会从此有了国家级的主办方。申报教育部教育装备研究与发展中心的课题，也是在2015年做的一项重要工作。他申报的课题名称为《校园创客活动与创客空间建设案例研究》，我应邀参与，并作为这个课题组的核心成员开展研究工作。&lt;/p&gt;
+
+&lt;p&gt;经过四年的努力，我们回头看看，这个课题已经完成了当时的既定目标：了解当前校园创客空间建设和校园创客活动的基本情况，在此基础上形成研究报告。围绕“如何建设校园创客空间”和“如何开展校园创客活动”等问题，精选国内案例，帮助基层教育工作者有序地开展创客教育。&lt;/p&gt;
+
+&lt;p&gt;创客教育能够坚持多久？我们不敢轻易预言，只能用十年来作为一个节点，一步一步地完成目标。最早的十年目标，是我在2015年的一次全国会议上提出，算起来差不多过了一半时间。虽然当时担心的一些情况也有发生，但总体上创客教育的发展情况良好。全国各地相继出台了实施或者推进创客教育的政策，创客空间如雨后春笋般建立，开源硬件写入了高中信息技术课程标准，“创意物化”成为中小学综合实践活动课程的重要目标，国产开源硬件项目“虚谷计划”启动并得到广泛支持。&lt;/p&gt;
+
+&lt;p&gt;创客教育何以持续十年？因为有老梁在内的很多教育创客的坚持。他们之中有教育管理部门的领导，也有高校的知名专家，有些在幕前摇旗呐喊，有些在幕后默默支持。没有他们的共同努力，就不会有创客教育的今天。&lt;/p&gt;
+
+&lt;p&gt;如果有人问老梁，这些年的最大感受是什么？我想老梁会回答：虽然很累，但痛并快乐着。如果有人问我，这些年的最大收获是什么？我会回答：大家都还在呢，一群人会走得很远。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-【随笔】为梁森山新书写的序/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;购买链接：&lt;a href=&quot;https://item.jd.com/67911009902.html&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://item.jd.com/67911009902.html&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">给梁森山新书写的序：创客教育何以持续十年</summary></entry><entry><title type="html">在网页上画画</title><link href="/blog/python/jupyter/2020/04/14/%E6%95%99%E7%A8%8B-%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB.html" rel="alternate" type="text/html" title="在网页上画画" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/blog/python/jupyter/2020/04/14/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB</id><content type="html" xml:base="/blog/python/jupyter/2020/04/14/%E6%95%99%E7%A8%8B-%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
-# file to edit: _notebooks/2020-04-14-在网页上画画.ipynb
+# file to edit: _notebooks/2020-04-14-【教程】在网页上画画.ipynb
 --&gt;
 
 &lt;div class=&quot;container&quot; id=&quot;notebook-container&quot;&gt;
@@ -1023,39 +1055,7 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">【随笔】为梁森山新书写的序</title><link href="/blog/2020/04/14/%E9%9A%8F%E7%AC%94-%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F.html" rel="alternate" type="text/html" title="【随笔】为梁森山新书写的序" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/blog/2020/04/14/%E3%80%90%E9%9A%8F%E7%AC%94%E3%80%91%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F</id><content type="html" xml:base="/blog/2020/04/14/%E9%9A%8F%E7%AC%94-%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F.html">&lt;p&gt;给梁森山新书写的序：创客教育何以持续十年&lt;/p&gt;
-
-&lt;p&gt;2017年，我应邀参加第三届中国教育创新成果公益博览会活动。我校报送的教学成果《“课程、空间、活动”三位一体的创客教育实践》获得了SERVE大奖。按照组委会要求，我需要在领奖仪式上做一分钟的演讲。如果从2008年建立科技制作社开始算起，我的创客教育已经持续了九年。用一分钟来归纳九年的工作，难度自然很大。转念一想，组委会实际上是要求我，用最简洁的话来回答三个问题：&lt;/p&gt;
-
-&lt;p&gt;1.为什么做创客教育？&lt;/p&gt;
-
-&lt;p&gt;2.创客教育做得怎么样了？&lt;/p&gt;
-
-&lt;p&gt;3.接下来准备怎么做创客教育？&lt;/p&gt;
-
-&lt;p&gt;经过一周时间的反复思考，我写下了如下一段话：&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;当我决定温州中学创客空间要向全校开放的时候，并没有意识到自己已经打开了一扇新的教育大门。几年后，总有老师、校长、专家问我，创客教育该怎么做。今天我来到这里，想告诉所有的关注创客教育的教育者，创客教育不是仅仅建一个高大上的创客空间，也不是仅仅带学生去获几个国家大奖，申报几个发明专利，而是应该从课程、空间和活动，多个维度去实施。没有课程，我们的学生不知道如何“造物”；没有空间，我们的学生没有地方“造物”；没有活动，如何让更多的孩子爱上“造物”？感谢教博会给我机会，给温州中学机会，给中国创客教育机会。&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;估计很少有人用这样的话来作为教学成果的领奖感言。但我清楚地知道，这段话能够很好地表达我的初心。2015年国内创客教育爆发，我最担心的莫过于全国各地兴起大建创客空间的风气，然后投入多的学校就成为了当地实施创客教育的典范。我还担心有些教育管理部门，用获奖次数和等级作为重要标准来评价学校的创客教育实施情况。这些做法对还处于萌芽阶段的创客教育来说是有害无益的，不仅会伤害了一批踏踏实实做创客教育的学校，还会将创客教育导向形式主义。&lt;/p&gt;
-
-&lt;p&gt;我在台上演讲的时候，老梁（我们对梁森山老师的称呼）就在现场。他是来参加我校负责的特别节目——一个以“展望创客教育十年”为主题的沙龙活动。严格说，他和吴俊杰、傅骞、丁书林等老师，是专门来为我鼓掌的。这颇让我感动。在那段颇为困难的时期，我们彼此之间都有了那种抱团取暖、相互依赖的特殊感情。&lt;/p&gt;
-
-&lt;p&gt;创客教育的实施，需要“课程、空间、活动”三位一体。这已经成为我们这批教育创客们的共识。“课程、空间、活动”其实还是评价创客教育的几个重要维度。对有钱的学校来说，建一个创客空间或许很容易，但同时还要开设课程，组织创客活动就不容易做到了，这要真刀真枪地干起来。同样，那些以科创竞赛获奖而出名的学校，我们也可以用这样的评价指标，引导他们除了参加竞赛，还要开设普惠的课程，要建设能够向所有学生开放的创客空间。&lt;/p&gt;
-
-&lt;p&gt;为了有效引领国内的创客教育，老梁在幕后做了很多努力。在我们的圈子内部，往往用“扫地僧”来称呼他。2015年，他花了很多精力编写了一本《中国创客教育蓝皮书（基础教育版）》，记录创客教育发展史上的一些故事，成为研究中国创客教育的必读书籍。他还通过各种人脉，帮我们这些早期教育创客建立一个组织，就是大家熟悉的中国电子学会现代教育技术分会创客教育专委会（现在更名为中国电子学会现代教育技术分会创客教育专家组），每年一次的STEAM教育大会从此有了国家级的主办方。申报教育部教育装备研究与发展中心的课题，也是在2015年做的一项重要工作。他申报的课题名称为《校园创客活动与创客空间建设案例研究》，我应邀参与，并作为这个课题组的核心成员开展研究工作。&lt;/p&gt;
-
-&lt;p&gt;经过四年的努力，我们回头看看，这个课题已经完成了当时的既定目标：了解当前校园创客空间建设和校园创客活动的基本情况，在此基础上形成研究报告。围绕“如何建设校园创客空间”和“如何开展校园创客活动”等问题，精选国内案例，帮助基层教育工作者有序地开展创客教育。&lt;/p&gt;
-
-&lt;p&gt;创客教育能够坚持多久？我们不敢轻易预言，只能用十年来作为一个节点，一步一步地完成目标。最早的十年目标，是我在2015年的一次全国会议上提出，算起来差不多过了一半时间。虽然当时担心的一些情况也有发生，但总体上创客教育的发展情况良好。全国各地相继出台了实施或者推进创客教育的政策，创客空间如雨后春笋般建立，开源硬件写入了高中信息技术课程标准，“创意物化”成为中小学综合实践活动课程的重要目标，国产开源硬件项目“虚谷计划”启动并得到广泛支持。&lt;/p&gt;
-
-&lt;p&gt;创客教育何以持续十年？因为有老梁在内的很多教育创客的坚持。他们之中有教育管理部门的领导，也有高校的知名专家，有些在幕前摇旗呐喊，有些在幕后默默支持。没有他们的共同努力，就不会有创客教育的今天。&lt;/p&gt;
-
-&lt;p&gt;如果有人问老梁，这些年的最大感受是什么？我想老梁会回答：虽然很累，但痛并快乐着。如果有人问我，这些年的最大收获是什么？我会回答：大家都还在呢，一群人会走得很远。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-【随笔】为梁森山新书写的序/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;购买链接：&lt;a href=&quot;https://item.jd.com/67911009902.html&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://item.jd.com/67911009902.html&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">给梁森山新书写的序：创客教育何以持续十年</summary></entry><entry><title type="html">【教程】fastpages汉化版使用说明</title><link href="/blog/2020/04/13/%E6%95%99%E7%A8%8B-fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html" rel="alternate" type="text/html" title="【教程】fastpages汉化版使用说明" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/blog/2020/04/13/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E</id><content type="html" xml:base="/blog/2020/04/13/%E6%95%99%E7%A8%8B-fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html">&lt;p&gt;1 登录自己的github账户，访问：https://github.com/EasonQYS/fastpagesJupyter ，找到下面这个蓝色的字并点击，&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">【教程】fastpages汉化版使用说明</title><link href="/blog/2020/04/13/%E6%95%99%E7%A8%8B-fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html" rel="alternate" type="text/html" title="【教程】fastpages汉化版使用说明" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/blog/2020/04/13/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E</id><content type="html" xml:base="/blog/2020/04/13/%E6%95%99%E7%A8%8B-fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html">&lt;p&gt;1 登录自己的github账户，访问：https://github.com/EasonQYS/fastpagesJupyter ，找到下面这个蓝色的字并点击，&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image1.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
