@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2020-04-14T21:57:32-05:00</updated><id>/blog/feed.xml</id><title type="html">谢作如的网络笔记</title><subtitle>专注于以技术为核心的跨学科学习.</subtitle><entry><title type="html">虚谷号快速入门</title><link href="/blog/2020/04/15/%E8%99%9A%E8%B0%B7%E5%8F%B7%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html" rel="alternate" type="text/html" title="虚谷号快速入门" /><published>2020-04-15T00:00:00-05:00</published><updated>2020-04-15T00:00:00-05:00</updated><id>/blog/2020/04/15/%E8%99%9A%E8%B0%B7%E5%8F%B7%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8</id><content type="html" xml:base="/blog/2020/04/15/%E8%99%9A%E8%B0%B7%E5%8F%B7%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html">&lt;p&gt;&lt;strong&gt;虚谷号快速入门（V1.2）&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2020-04-21T20:53:38-05:00</updated><id>/blog/feed.xml</id><title type="html">谢作如的网络笔记</title><subtitle>专注于以技术为核心的跨学科学习.</subtitle><entry><title type="html">【教程】用github协同共建一个“开源”网站</title><link href="/blog/2020/04/21/%E6%95%99%E7%A8%8B-%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99.html" rel="alternate" type="text/html" title="【教程】用github协同共建一个“开源”网站" /><published>2020-04-21T00:00:00-05:00</published><updated>2020-04-21T00:00:00-05:00</updated><id>/blog/2020/04/21/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA%E2%80%9C%E5%BC%80%E6%BA%90%E2%80%9D%E7%BD%91%E7%AB%99</id><content type="html" xml:base="/blog/2020/04/21/%E6%95%99%E7%A8%8B-%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99.html">&lt;p&gt;用GitHub协同共建一个“开源”网站&lt;/p&gt;
+
+&lt;p&gt;浙江省温州中学 谢作如&lt;/p&gt;
+
+&lt;p&gt;中国石油大学（华东） 邱奕盛&lt;/p&gt;
+
+&lt;p&gt;学科关键词：技术、工程&lt;/p&gt;
+
+&lt;p&gt;随着安卓智能手机的普及，“开源”这一新名词逐步被大众接受。除了安卓、Linux等大家比较熟悉的开源软件外，开源家族中还有“开源硬件”。创客教育中的造物神器Arduino、掌控板就是典型代表。2017年教育部发布的普通高中信息技术课标中，还增加了一个叫做《开源硬件项目设计》的模块，重点普及“开源”思想，引导学生“理解并自觉践行开源的理念与知识分享的精神”。&lt;/p&gt;
+
+&lt;p&gt;如何与更多人一起分享自己的学习心得？除了在一些公共平台发表文章心得外，做一个网站肯定是重要的途径。但对很多人来说，做网站似乎是一个很专业的技能，尤其是还会涉及到域名购买、解析，空间租借之类，还要申请各种认证。其实做一个网站并没有这么难，只要会用GitHub就可以了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-04-21-【教程】用GitHub协同共建一个“开源”网站/media/image2.png&quot; alt=&quot;手机屏幕截图 描述已自动生成&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图 1 GitHub网站&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一、用GitHub建站的可行性分析&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;对IT方面有些了解的人大都听说过Github，这是全球最大的代码共享平台。准确地说，Github是一个面向开源及私有软件项目的托管平台。除了支持Git（一个开源的分布式版本控制系统）外，Github还提供了很多有趣的功能，比如GitHub Pages就是其中一个。&lt;/p&gt;
+
+&lt;p&gt;选择GitHub Pages来建网站，理由一般有如下三个：&lt;/p&gt;
+
+&lt;p&gt;1.使用方便: GitHub Pages 集成在 GitHub中, 直接和代码管理绑定在一起。采用了代码更新命令进行自动部署, 使用非常方便。维护方面同时支持在线管理和客户端管理两种方式。&lt;/p&gt;
+
+&lt;p&gt;2.免费: GitHub免费提供了“username.github.io”的域名，还支持自定义域名,几乎等同于一个免费的静态网站服务器。&lt;/p&gt;
+
+&lt;p&gt;3.无数量限制: GitHub Pages没有使用的数量限制, 每一个Repository（仓库）都可以部署为一个静态网站。&lt;/p&gt;
+
+&lt;p&gt;当然，如果仅仅是发布静态网站，那更新网站也会成为一项非常无趣的工作。最近GitHub的程序员发布了FastPages的工具，能够将文档直接转换为网页。支持的文档类型还很丰富，如Word、MarkDown和Jupyter等。这个功能一发布就受到很多用户的关注，因为这样一来，我们只要按照规范上传各种文档，主页自动会进行更新，看起来和个人博客就没有区别了。更重要的是，这个博客是没有任何广告的，可以多人协同维护的。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-04-21-【教程】用GitHub协同共建一个“开源”网站/media/image3.png&quot; alt=&quot;手机屏幕截图 描述已自动生成&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;用FastPages生成的网站&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;二、建立GitHub Pages的步骤介绍&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;要建立一个GitHub Pages，第一步自然是要注册一个GitHub用户了。有了用户后，只要建一个名称为“username.github.io”的Repository（仓库），就拥有了一个静态网站。如我的用户名是“xiezuoru”，这个库的名称就是“xiezuoru.github.io”。然后，在这个Repository的根目录下建一个名称为“index.html”的文件，输入HTML代码，主页就产生了。访问“xiezuoru.github.io”，即可看到这个主页的效果。&lt;/p&gt;
+
+&lt;p&gt;如何设计一个精美的网站？这需要一定的审美能力。如果对HTML语言不熟悉，就需要用一些专业的网页设计工具，如DreamWeaver、Avocode之类。如果对页面的要求不高，最简单的办法就是用Word。上传文件则推荐用GitHub客户端工具，会自动比较本地目录和云端仓库的更新状态，类似云盘。我借鉴了一个博客的外观设计，做一个很简单的页面，如图所示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-04-21-【教程】用GitHub协同共建一个“开源”网站/media/image4.png&quot; alt=&quot;手机屏幕截图 描述已自动生成&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;谢作如的GitHub Pages&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;三、利用FastPages实现自动转换文档&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;要实现自动转换文档为网页，还需要建一个具备“FastPages”功能的仓库。这个仓库不能自己建立，也不能用“fork”功能来产生，而是要通过一个特定的仓库“generate”（生成）。&lt;/p&gt;
+
+&lt;p&gt;具备FastPages 功能的原始仓库是“fastai/fastpages”，访问地址为https://github.com/fastai/fastpages。考虑到“fastai/fastpages”是英文版，我们特意汉化了一个仓库，名称为“EasonQYS/fastpagesJupyter”，访问地址为：https://github.com/EasonQYS/fastpagesJupyter/&lt;/p&gt;
+
+&lt;p&gt;在这个地址的后面加上“generate”，即https://github.com/EasonQYS/fastpagesJupyter/generate。或者在readme页面中点击生成网站的链接，然后在跳出的页面中，给这个仓库起一个名称。仓库名称没有规定，只要不使用“username.github.io”就可以。&lt;/p&gt;
+
+&lt;p&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-04-21-【教程】用GitHub协同共建一个“开源”网站/media/image5.png&quot; alt=&quot;手机屏幕截图 描述已自动生成&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fastpages的中文版本&lt;/p&gt;
+
+&lt;p&gt;仓库建立成功后，大约30秒左右，你用来注册GitHub的邮箱会收到一封英文邮件。按照邮件的要求，生成一对SSH密钥，分别填写在指定的网页中，这里不再赘述。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-04-21-【教程】用GitHub协同共建一个“开源”网站/media/image6.png&quot; alt=&quot;手机屏幕截图 描述已自动生成&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;收到的英文邮件&lt;/p&gt;
+
+&lt;p&gt;访问“username.github.io/repository”就能看到这个新主页了，如我的fastpages地址就是&lt;span class=&quot;underline&quot;&gt;https://xiezuoru.github.io/blog/&lt;/span&gt;。需要注意的是，无论是否填写密钥，这个页面都能看到，对应的文件就是“index.html”。只不过没有填写密钥，这个网页文件将不能自动更新。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-04-21-【教程】用GitHub协同共建一个“开源”网站/media/image7.png&quot; alt=&quot;手机屏幕截图 描述已自动生成&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;默认的主页效果&lt;/p&gt;
+
+&lt;p&gt;修改仓库根目录下的“index.html”文件，即可修改主页的效果。其中自动更新的文件列表会出现在“最新博文”的下方。而“关于我”、“查找”、“标签”这几个网页，要在“_pages”文件中修改。关于这个网站的基本信息，请修改“_config.yml”文件。&lt;/p&gt;
+
+&lt;p&gt;那么，如何上传文档自动更新主页呢？其实很简单，只要将文件按“年-月-日-标题”的格式命名，上传到相应的文件夹下即可，如“2020-04-01-虚谷计划简介.docx”。其中，Word文件要上传到“_word”文件夹，MarkDown格式和网页格式的文档，要上传到“_posts”文件夹中，jupyter文件则要上传到“_notebooks”文件夹。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;四、我的建站实践——虚谷计划网站&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;按照这样的方式，我们给“虚谷计划”建立了一个网站。先建立一个名为“vvplan”的organizations（组织），然后建一个名为“vvplan.github.io”的仓库。考虑到访问方便，我们设置了cname（别名），将域名&lt;a href=&quot;http://www.vvplan.cn&quot;&gt;www.vvplan.cn&lt;/a&gt;指向到这里。&lt;/p&gt;
+
+&lt;p&gt;虚谷计划下面有四个项目，我们也分别建立了四个具备fastpages功能的仓库，逐一填写密钥。然后，邀请虚谷计划组委会的成员加入这个组织。现在，更新网站也可以像GitHub中的其他项目开发一样，采用协同工作的形式，权限设置非常灵活。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-04-21-【教程】用GitHub协同共建一个“开源”网站/media/image8.png&quot; alt=&quot;手机截图图社交软件的信息 描述已自动生成&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;基于GitHub Pages建的虚谷计划网站&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;五、结语&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;表面上看，这篇文章介绍了如何用GitHub建一个网站。其实，这个建站方式和传统的做法是不一样的。最大区别就在于GitHub Pages是“开源”的，任何人只要喜欢你的网站结构或者内容，只要按下“fork”，就能将你的网站clone（克隆）一份。这样一来，就有越来越多的人从这样的分享过程中受益。高中开源硬件项目设计模块的教学，需要引领学生用这种方式分享自己的项目。&lt;/p&gt;
+
+&lt;p&gt;除此之外，我们还能从这个建站的过程中深刻理解文档格式，体会到标记语言（Html、MarkDown、XML、JSON和yaml等）在信息交流中的重要意义。这些文档的转换，都是Python脚本代码来完成的，我们还可以研究转换脚本，感受Python的强大功能。当然，对于我们来说，最重要的收获反而是协同共建的机制，GitHub能够记录所有用户的操作，分布式的开发和集中式的管理，让协同开发变得优雅而灵活。&lt;/p&gt;</content><author><name></name></author><summary type="html">用GitHub协同共建一个“开源”网站</summary></entry><entry><title type="html">【教程】虚谷号快速入门</title><link href="/blog/2020/04/15/%E6%95%99%E7%A8%8B-%E8%99%9A%E8%B0%B7%E5%8F%B7%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html" rel="alternate" type="text/html" title="【教程】虚谷号快速入门" /><published>2020-04-15T00:00:00-05:00</published><updated>2020-04-15T00:00:00-05:00</updated><id>/blog/2020/04/15/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E8%99%9A%E8%B0%B7%E5%8F%B7%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8</id><content type="html" xml:base="/blog/2020/04/15/%E6%95%99%E7%A8%8B-%E8%99%9A%E8%B0%B7%E5%8F%B7%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html">&lt;p&gt;&lt;strong&gt;虚谷号快速入门（V1.2）&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;文档撰写 谢作如&lt;/strong&gt;&lt;/p&gt;
 
@@ -52,25 +140,25 @@
 
 &lt;p&gt;1）将USB线连至虚谷号的OTG口（请选择正确的USB口）。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-虚谷号快速入门/media/image1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】虚谷号快速入门/media/image1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;2）稍后，系统会将虚谷号识别为一个U盘。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-虚谷号快速入门/media/image2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】虚谷号快速入门/media/image2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;3）打开vvBoard的文件夹，找到vvBoard_config文件。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-虚谷号快速入门/media/image3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】虚谷号快速入门/media/image3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;4）用记事本编辑vvBoard_config文件。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-虚谷号快速入门/media/image4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】虚谷号快速入门/media/image4.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;将SSID和SSID_PSD改为你的Wi-Fi账号密码，保存配置文件。&lt;/p&gt;
 
 &lt;p&gt;5）按下虚谷号的RST键，U盘会暂时消失，等再次出现时，vvBoard的文件夹会出现两个新的快捷方式。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-虚谷号快速入门/media/image5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】虚谷号快速入门/media/image5.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;双击“访问Jupyter”，此时浏览器（推荐谷歌浏览器）将打开Jupyter的登录页面，登陆密码为“scope”。在Jupyter的界面下，可以给虚谷号编程、安装软件。&lt;/p&gt;
 
@@ -80,17 +168,17 @@
 
 &lt;p&gt;打开Jupyter，将看到虚谷号的vvBoardBook文件夹中内置了很多学习笔记。这些笔记既包含了代码又有各种解释文字，可以作为编程课程来使用。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-虚谷号快速入门/media/image6.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】虚谷号快速入门/media/image6.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;以张路、谢作如编写的《Python快速入门教程》为例，用鼠标选中代码，点击上方的“运行”，在代码的下方即可看到运行效果。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-虚谷号快速入门/media/image7.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】虚谷号快速入门/media/image7.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;5. 体验人工智能&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;虚谷号内置了百度AI开放平台，可以实现很多人工智能的应用，打开内置的学习笔记，即可体验AI的强大功能。当然，你也可以在线修改代码，观察不同的运行结果。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-虚谷号快速入门/media/image8.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】虚谷号快速入门/media/image8.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;注&lt;/strong&gt;：虚谷号中提供了一个公用的百度AI用户，可能会受到百度AI平台“申请次数过多”的限制，建议申请一个百度AI平台用户，然后修改代码中的用户参数。&lt;/p&gt;
 
@@ -98,7 +186,7 @@
 
 &lt;p&gt;虚谷号内置了SIoT服务器和SIoT库（基于MQTT协议），加上GPIO功能，做物联网数据采集和远程控制非常方便。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-虚谷号快速入门/media/image9.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】虚谷号快速入门/media/image9.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;关于虚谷物联的更多内容，请访问：&lt;a href=&quot;https://github.com/vvlink/SIoT&quot;&gt;https://github.com/vvlink/SIoT&lt;/a&gt;&lt;/p&gt;
 
@@ -134,7 +222,7 @@
 
 &lt;p&gt;地址：&lt;a href=&quot;https://vvboard.readthedocs.io/&quot;&gt;https://vvboard.readthedocs.io/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;想购买虚谷号，请通过微信（搜索“虚谷号”），一些创客企业已经开始代理虚谷号，DF商城即将上线。&lt;/p&gt;</content><author><name></name></author><summary type="html">虚谷号快速入门（V1.2）</summary></entry><entry><title type="html">Makerbrush结合激光切割机设计立体模型</title><link href="/blog/2020/04/15/MakerBrush%E7%BB%93%E5%90%88%E6%BF%80%E5%85%89%E5%88%87%E5%89%B2%E6%9C%BA%E8%AE%BE%E8%AE%A1%E7%AB%8B%E4%BD%93%E6%A8%A1%E5%9E%8B.html" rel="alternate" type="text/html" title="Makerbrush结合激光切割机设计立体模型" /><published>2020-04-15T00:00:00-05:00</published><updated>2020-04-15T00:00:00-05:00</updated><id>/blog/2020/04/15/MakerBrush%E7%BB%93%E5%90%88%E6%BF%80%E5%85%89%E5%88%87%E5%89%B2%E6%9C%BA%E8%AE%BE%E8%AE%A1%E7%AB%8B%E4%BD%93%E6%A8%A1%E5%9E%8B</id><content type="html" xml:base="/blog/2020/04/15/MakerBrush%E7%BB%93%E5%90%88%E6%BF%80%E5%85%89%E5%88%87%E5%89%B2%E6%9C%BA%E8%AE%BE%E8%AE%A1%E7%AB%8B%E4%BD%93%E6%A8%A1%E5%9E%8B.html">&lt;p&gt;MakerBrush结合激光切割机设计立体模型&lt;/p&gt;
+&lt;p&gt;想购买虚谷号，请通过微信（搜索“虚谷号”），一些创客企业已经开始代理虚谷号，DF商城即将上线。&lt;/p&gt;</content><author><name></name></author><summary type="html">虚谷号快速入门（V1.2）</summary></entry><entry><title type="html">【教程】makerbrush结合激光切割机设计立体模型</title><link href="/blog/2020/04/15/%E6%95%99%E7%A8%8B-MakerBrush%E7%BB%93%E5%90%88%E6%BF%80%E5%85%89%E5%88%87%E5%89%B2%E6%9C%BA%E8%AE%BE%E8%AE%A1%E7%AB%8B%E4%BD%93%E6%A8%A1%E5%9E%8B.html" rel="alternate" type="text/html" title="【教程】makerbrush结合激光切割机设计立体模型" /><published>2020-04-15T00:00:00-05:00</published><updated>2020-04-15T00:00:00-05:00</updated><id>/blog/2020/04/15/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91MakerBrush%E7%BB%93%E5%90%88%E6%BF%80%E5%85%89%E5%88%87%E5%89%B2%E6%9C%BA%E8%AE%BE%E8%AE%A1%E7%AB%8B%E4%BD%93%E6%A8%A1%E5%9E%8B</id><content type="html" xml:base="/blog/2020/04/15/%E6%95%99%E7%A8%8B-MakerBrush%E7%BB%93%E5%90%88%E6%BF%80%E5%85%89%E5%88%87%E5%89%B2%E6%9C%BA%E8%AE%BE%E8%AE%A1%E7%AB%8B%E4%BD%93%E6%A8%A1%E5%9E%8B.html">&lt;p&gt;MakerBrush结合激光切割机设计立体模型&lt;/p&gt;
 
 &lt;p&gt;天津外国语大学附属滨海外国语学校 蔡瑞衡&lt;/p&gt;
 
@@ -148,7 +236,7 @@
 
 &lt;p&gt;绘制激光切割机加工图纸的软件很多，如LaserMaker、inkscape、Corel DRAW和AutoCAD等。但是用在平面上绘制图形再拼制出立体的模型的方式，对中小学生来说门槛比较高。因为这不仅要考虑切割板材的厚度、面与面之间的配合、还要能够理解二维向三维的空间转换。为此我们测试了很多软件，直到发现了MakerBrush，才总算找到了一个很好的解决方案。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;图 1 一个典型的立体模型&lt;/p&gt;
 
@@ -156,13 +244,13 @@
 
 &lt;p&gt;MakerBrush软件是一款用“所见即所得”的形式来设计立体模型的软件，为激光切割方面量身定制。在MakerBrush中，3D模型的构建是依靠一块块平板“拼接”起来。不管是用3mm还是5mm的板子，使用的建模方式是相互拼接或者剪去（清除）不要的部分，这和常见的3D建模软件几乎完全不同。这种“积木式”拼、切立体模型的方式不仅直观，还能避免对实物拼接细节考虑不周而导致的误差。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;图 2 MakerBrush的建模方式&lt;/p&gt;
 
 &lt;p&gt;MakerBrush的入门门槛很低，通过面板工具选择确定图形，并对图形选区进行绘制擦除、移动翻转等操作，以此实现模型的搭建。一般来说，经过一两个小时的操作学习后，即可掌握基本功能。还有直线连接、自动生成纹理等功能，方便学生做镂空和曲面设计。此外还有预制和电子元件库等专业性功能。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;图 3 通过基本工具实现模型搭建&lt;/p&gt;
 
@@ -174,13 +262,13 @@
 
 &lt;p&gt;第二步，在MakerBrush中创建面。选择一个简单图形作为基本面的形状，比如矩形或圆形，并进行内容设计。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;图 4 选择基本面&lt;/p&gt;
 
 &lt;p&gt;第三步，设计面与面的拼接结构。激光切割中常用的拼接方式是板子的相互拼插，而不是粘胶。只要将一个面的边缘添加一个小凸起，在另一个面中形成相应的缺口，两块板子即可相互拼插形成立体结构。MakerBrush已为我们设好了常用板材的厚度，能够自动识别拼插连接。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image6.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image6.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;图 5 拼插结构&lt;/p&gt;
 
@@ -198,7 +286,7 @@
 
 &lt;p&gt;通过不同角度查看，对图形进行翻转使其互相垂直并对齐，此时绘制底面，底面会自动识别小凸起，形成拼插结构。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;图 7 桌牌的建模过程&lt;/p&gt;
 
@@ -210,7 +298,7 @@
 
 &lt;p&gt;复制一个一样的外形做背面，嵌入传感器的固定件。再做几个可以拼插的底面或侧面，方便组装成盒子。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;图 8 “空气探测器”建模过程&lt;/p&gt;
 
@@ -243,7 +331,7 @@
 &lt;p&gt;熟悉面的选择与移动；&lt;/p&gt;
 &lt;p&gt;掌握简单工具与符号的选择；&lt;/p&gt;
 &lt;p&gt;对尺寸有初步的认识。&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image27.png&quot; style=&quot;width:1.31481in;height:1.20833in&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image27.png&quot; style=&quot;width:1.31481in;height:1.20833in&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;even&quot;&gt;
 &lt;td&gt;三维入门&lt;/td&gt;
@@ -254,7 +342,7 @@
 &lt;td&gt;&lt;p&gt;掌握不同面的查看与空间转换；&lt;/p&gt;
 &lt;p&gt;掌握对已绘制图形的复制、改变大小；&lt;/p&gt;
 &lt;p&gt;掌握拼插结构凸起与凹陷的处理。&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image28.png&quot; style=&quot;width:1.31458in;height:1.23049in&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image28.png&quot; style=&quot;width:1.31458in;height:1.23049in&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;odd&quot;&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -265,7 +353,7 @@
 &lt;p&gt;根据实物考虑尺寸的限制条件；&lt;/p&gt;
 &lt;p&gt;学会在绘制简单工具时考虑到倒圆角等细节；&lt;/p&gt;
 &lt;p&gt;学会调整模型的空间旋转角度。&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image29.png&quot; style=&quot;width:1.2093in;height:1.75899in&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image29.png&quot; style=&quot;width:1.2093in;height:1.75899in&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;even&quot;&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -275,7 +363,7 @@
 &lt;p&gt;探究：你做出来的是长方体还是正方体呢？&lt;/p&gt;&lt;/td&gt;
 &lt;td&gt;&lt;p&gt;通过立方体六个面的组合，了解不同面相互的影响；&lt;/p&gt;
 &lt;p&gt;深入理解拼插结构对实物造型尺寸上的影响。&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image30.png&quot; style=&quot;width:1.30273in;height:1.33333in&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image30.png&quot; style=&quot;width:1.30273in;height:1.33333in&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;odd&quot;&gt;
 &lt;td&gt;创意结构&lt;/td&gt;
@@ -287,7 +375,7 @@
 &lt;td&gt;&lt;p&gt;认识角铁，学会在适当的位置通过添加结构件使模型更稳固；&lt;/p&gt;
 &lt;p&gt;认识“arc”和“arcsweep”工具，学习绘制和调整弧形；&lt;/p&gt;
 &lt;p&gt;学会用不同形状组合剪切，建模，达到创意三维模型。&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image31.png&quot; style=&quot;width:1.31133in;height:1.52083in&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image31.png&quot; style=&quot;width:1.31133in;height:1.52083in&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;even&quot;&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -297,7 +385,7 @@
 &lt;p&gt;用“texture生成纹理”设计镂空盒子&lt;/p&gt;&lt;/td&gt;
 &lt;td&gt;&lt;p&gt;进一步熟悉简单工具与结构件；&lt;/p&gt;
 &lt;p&gt;掌握生成纹理这一工具，理解不同纹理间距和图案对作品设计美感的影响。&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image2.png&quot; style=&quot;width:1.5158in;height:1.26042in&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image2.png&quot; style=&quot;width:1.5158in;height:1.26042in&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;odd&quot;&gt;
 &lt;td&gt;电子智造&lt;/td&gt;
@@ -309,7 +397,7 @@
 &lt;td&gt;&lt;p&gt;学习用电子元件构建互动作品；&lt;/p&gt;
 &lt;p&gt;认识电子元件库，为元件建造模型；&lt;/p&gt;
 &lt;p&gt;掌握walls工具，设计曲面。&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image32.png&quot; style=&quot;width:1.5in;height:1.5in&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image32.png&quot; style=&quot;width:1.5in;height:1.5in&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;even&quot;&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -319,7 +407,7 @@
 &lt;td&gt;&lt;p&gt;了解艺术与科技的结合；&lt;/p&gt;
 &lt;p&gt;了解多种传感器作为一种输入设备的应用，结合编程在生活中“造物”；&lt;/p&gt;
 &lt;p&gt;理解如何根据实际需求，有效应用激光切割这一技术。&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image20.png&quot; style=&quot;width:1.32917in;height:1.66181in&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image20.png&quot; style=&quot;width:1.32917in;height:1.66181in&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;odd&quot;&gt;
 &lt;td&gt;&lt;/td&gt;
@@ -329,7 +417,7 @@
 &lt;td&gt;&lt;p&gt;学习用MakerBrush自由绘制一个模型；&lt;/p&gt;
 &lt;p&gt;学会根据模型选择板材的厚度；选择合适的舵机来配合模型；&lt;/p&gt;
 &lt;p&gt;以掌控板为例，通过编程实现无线通信；设计可穿戴设备，不用接触即可实现遥控玩迷宫。&lt;/p&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-MakerBrush结合激光切割机设计立体模型/media/image33.png&quot; style=&quot;width:1.52361in;height:1.5625in&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;assets/img/2020-04-15-【教程】MakerBrush结合激光切割机设计立体模型/media/image33.png&quot; style=&quot;width:1.52361in;height:1.5625in&quot; /&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&quot;even&quot;&gt;
 &lt;td&gt;综合练习&lt;/td&gt;
@@ -341,39 +429,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;“创意物化”能力是《中小学综合实践活动课程指导纲要》提出的四大能力之一。《纲要》提出要让学生积极参与动手操作实践，熟练掌握多种操作技能，能够综合运用技能解决生活中的复杂问题。以激光切割机为工具，设计并加工各种创意立体模型，是综合实践活动中的“设计制作”重要的活动选题方向。这类活动的实施过程安全、快速，实施成本低廉，能有效增强学生的创意设计、动手操作、技术应用和物化能力。MakerBrush软件很好地降低了中小学生设计立体模型的技术门槛，其所见即所得的特征，让教学变得更加生动有趣，值得老师们积极尝试。&lt;/p&gt;</content><author><name></name></author><summary type="html">MakerBrush结合激光切割机设计立体模型</summary></entry><entry><title type="html">为梁森山新书写的序</title><link href="/blog/2020/04/14/%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F.html" rel="alternate" type="text/html" title="为梁森山新书写的序" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/blog/2020/04/14/%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F</id><content type="html" xml:base="/blog/2020/04/14/%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F.html">&lt;p&gt;给梁森山新书写的序：创客教育何以持续十年&lt;/p&gt;
-
-&lt;p&gt;2017年，我应邀参加第三届中国教育创新成果公益博览会活动。我校报送的教学成果《“课程、空间、活动”三位一体的创客教育实践》获得了SERVE大奖。按照组委会要求，我需要在领奖仪式上做一分钟的演讲。如果从2008年建立科技制作社开始算起，我的创客教育已经持续了九年。用一分钟来归纳九年的工作，难度自然很大。转念一想，组委会实际上是要求我，用最简洁的话来回答三个问题：&lt;/p&gt;
-
-&lt;p&gt;1.为什么做创客教育？&lt;/p&gt;
-
-&lt;p&gt;2.创客教育做得怎么样了？&lt;/p&gt;
-
-&lt;p&gt;3.接下来准备怎么做创客教育？&lt;/p&gt;
-
-&lt;p&gt;经过一周时间的反复思考，我写下了如下一段话：&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;当我决定温州中学创客空间要向全校开放的时候，并没有意识到自己已经打开了一扇新的教育大门。几年后，总有老师、校长、专家问我，创客教育该怎么做。今天我来到这里，想告诉所有的关注创客教育的教育者，创客教育不是仅仅建一个高大上的创客空间，也不是仅仅带学生去获几个国家大奖，申报几个发明专利，而是应该从课程、空间和活动，多个维度去实施。没有课程，我们的学生不知道如何“造物”；没有空间，我们的学生没有地方“造物”；没有活动，如何让更多的孩子爱上“造物”？感谢教博会给我机会，给温州中学机会，给中国创客教育机会。&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;估计很少有人用这样的话来作为教学成果的领奖感言。但我清楚地知道，这段话能够很好地表达我的初心。2015年国内创客教育爆发，我最担心的莫过于全国各地兴起大建创客空间的风气，然后投入多的学校就成为了当地实施创客教育的典范。我还担心有些教育管理部门，用获奖次数和等级作为重要标准来评价学校的创客教育实施情况。这些做法对还处于萌芽阶段的创客教育来说是有害无益的，不仅会伤害了一批踏踏实实做创客教育的学校，还会将创客教育导向形式主义。&lt;/p&gt;
-
-&lt;p&gt;我在台上演讲的时候，老梁（我们对梁森山老师的称呼）就在现场。他是来参加我校负责的特别节目——一个以“展望创客教育十年”为主题的沙龙活动。严格说，他和吴俊杰、傅骞、丁书林等老师，是专门来为我鼓掌的。这颇让我感动。在那段颇为困难的时期，我们彼此之间都有了那种抱团取暖、相互依赖的特殊感情。&lt;/p&gt;
-
-&lt;p&gt;创客教育的实施，需要“课程、空间、活动”三位一体。这已经成为我们这批教育创客们的共识。“课程、空间、活动”其实还是评价创客教育的几个重要维度。对有钱的学校来说，建一个创客空间或许很容易，但同时还要开设课程，组织创客活动就不容易做到了，这要真刀真枪地干起来。同样，那些以科创竞赛获奖而出名的学校，我们也可以用这样的评价指标，引导他们除了参加竞赛，还要开设普惠的课程，要建设能够向所有学生开放的创客空间。&lt;/p&gt;
-
-&lt;p&gt;为了有效引领国内的创客教育，老梁在幕后做了很多努力。在我们的圈子内部，往往用“扫地僧”来称呼他。2015年，他花了很多精力编写了一本《中国创客教育蓝皮书（基础教育版）》，记录创客教育发展史上的一些故事，成为研究中国创客教育的必读书籍。他还通过各种人脉，帮我们这些早期教育创客建立一个组织，就是大家熟悉的中国电子学会现代教育技术分会创客教育专委会（现在更名为中国电子学会现代教育技术分会创客教育专家组），每年一次的STEAM教育大会从此有了国家级的主办方。申报教育部教育装备研究与发展中心的课题，也是在2015年做的一项重要工作。他申报的课题名称为《校园创客活动与创客空间建设案例研究》，我应邀参与，并作为这个课题组的核心成员开展研究工作。&lt;/p&gt;
-
-&lt;p&gt;经过四年的努力，我们回头看看，这个课题已经完成了当时的既定目标：了解当前校园创客空间建设和校园创客活动的基本情况，在此基础上形成研究报告。围绕“如何建设校园创客空间”和“如何开展校园创客活动”等问题，精选国内案例，帮助基层教育工作者有序地开展创客教育。&lt;/p&gt;
-
-&lt;p&gt;创客教育能够坚持多久？我们不敢轻易预言，只能用十年来作为一个节点，一步一步地完成目标。最早的十年目标，是我在2015年的一次全国会议上提出，算起来差不多过了一半时间。虽然当时担心的一些情况也有发生，但总体上创客教育的发展情况良好。全国各地相继出台了实施或者推进创客教育的政策，创客空间如雨后春笋般建立，开源硬件写入了高中信息技术课程标准，“创意物化”成为中小学综合实践活动课程的重要目标，国产开源硬件项目“虚谷计划”启动并得到广泛支持。&lt;/p&gt;
-
-&lt;p&gt;创客教育何以持续十年？因为有老梁在内的很多教育创客的坚持。他们之中有教育管理部门的领导，也有高校的知名专家，有些在幕前摇旗呐喊，有些在幕后默默支持。没有他们的共同努力，就不会有创客教育的今天。&lt;/p&gt;
-
-&lt;p&gt;如果有人问老梁，这些年的最大感受是什么？我想老梁会回答：虽然很累，但痛并快乐着。如果有人问我，这些年的最大收获是什么？我会回答：大家都还在呢，一群人会走得很远。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-为梁森山新书写的序/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;购买链接：&lt;a href=&quot;https://item.jd.com/67911009902.html&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://item.jd.com/67911009902.html&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">给梁森山新书写的序：创客教育何以持续十年</summary></entry><entry><title type="html">在网页上画画</title><link href="/blog/python/jupyter/2020/04/14/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB.html" rel="alternate" type="text/html" title="在网页上画画" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/blog/python/jupyter/2020/04/14/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB</id><content type="html" xml:base="/blog/python/jupyter/2020/04/14/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB.html">&lt;!--
+&lt;p&gt;“创意物化”能力是《中小学综合实践活动课程指导纲要》提出的四大能力之一。《纲要》提出要让学生积极参与动手操作实践，熟练掌握多种操作技能，能够综合运用技能解决生活中的复杂问题。以激光切割机为工具，设计并加工各种创意立体模型，是综合实践活动中的“设计制作”重要的活动选题方向。这类活动的实施过程安全、快速，实施成本低廉，能有效增强学生的创意设计、动手操作、技术应用和物化能力。MakerBrush软件很好地降低了中小学生设计立体模型的技术门槛，其所见即所得的特征，让教学变得更加生动有趣，值得老师们积极尝试。&lt;/p&gt;</content><author><name></name></author><summary type="html">MakerBrush结合激光切割机设计立体模型</summary></entry><entry><title type="html">在网页上画画</title><link href="/blog/python/jupyter/2020/04/14/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB.html" rel="alternate" type="text/html" title="在网页上画画" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/blog/python/jupyter/2020/04/14/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB</id><content type="html" xml:base="/blog/python/jupyter/2020/04/14/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%94%BB%E7%94%BB.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -967,11 +1023,43 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Fastpages汉化版使用说明</title><link href="/blog/2020/04/13/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html" rel="alternate" type="text/html" title="Fastpages汉化版使用说明" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/blog/2020/04/13/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E</id><content type="html" xml:base="/blog/2020/04/13/fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html">&lt;p&gt;1 登录自己的github账户，访问：https://github.com/EasonQYS/fastpagesJupyter ，找到下面这个蓝色的字并点击，&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">【随笔】为梁森山新书写的序</title><link href="/blog/2020/04/14/%E9%9A%8F%E7%AC%94-%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F.html" rel="alternate" type="text/html" title="【随笔】为梁森山新书写的序" /><published>2020-04-14T00:00:00-05:00</published><updated>2020-04-14T00:00:00-05:00</updated><id>/blog/2020/04/14/%E3%80%90%E9%9A%8F%E7%AC%94%E3%80%91%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F</id><content type="html" xml:base="/blog/2020/04/14/%E9%9A%8F%E7%AC%94-%E4%B8%BA%E6%A2%81%E6%A3%AE%E5%B1%B1%E6%96%B0%E4%B9%A6%E5%86%99%E7%9A%84%E5%BA%8F.html">&lt;p&gt;给梁森山新书写的序：创客教育何以持续十年&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image1.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;2017年，我应邀参加第三届中国教育创新成果公益博览会活动。我校报送的教学成果《“课程、空间、活动”三位一体的创客教育实践》获得了SERVE大奖。按照组委会要求，我需要在领奖仪式上做一分钟的演讲。如果从2008年建立科技制作社开始算起，我的创客教育已经持续了九年。用一分钟来归纳九年的工作，难度自然很大。转念一想，组委会实际上是要求我，用最简洁的话来回答三个问题：&lt;/p&gt;
 
-&lt;p&gt;在自己的账户下生成一个仓库（仓库名不能使用&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image2.png&quot; alt=&quot;&quot; /&gt;），用于运行网页。&lt;/p&gt;
+&lt;p&gt;1.为什么做创客教育？&lt;/p&gt;
+
+&lt;p&gt;2.创客教育做得怎么样了？&lt;/p&gt;
+
+&lt;p&gt;3.接下来准备怎么做创客教育？&lt;/p&gt;
+
+&lt;p&gt;经过一周时间的反复思考，我写下了如下一段话：&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;当我决定温州中学创客空间要向全校开放的时候，并没有意识到自己已经打开了一扇新的教育大门。几年后，总有老师、校长、专家问我，创客教育该怎么做。今天我来到这里，想告诉所有的关注创客教育的教育者，创客教育不是仅仅建一个高大上的创客空间，也不是仅仅带学生去获几个国家大奖，申报几个发明专利，而是应该从课程、空间和活动，多个维度去实施。没有课程，我们的学生不知道如何“造物”；没有空间，我们的学生没有地方“造物”；没有活动，如何让更多的孩子爱上“造物”？感谢教博会给我机会，给温州中学机会，给中国创客教育机会。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;估计很少有人用这样的话来作为教学成果的领奖感言。但我清楚地知道，这段话能够很好地表达我的初心。2015年国内创客教育爆发，我最担心的莫过于全国各地兴起大建创客空间的风气，然后投入多的学校就成为了当地实施创客教育的典范。我还担心有些教育管理部门，用获奖次数和等级作为重要标准来评价学校的创客教育实施情况。这些做法对还处于萌芽阶段的创客教育来说是有害无益的，不仅会伤害了一批踏踏实实做创客教育的学校，还会将创客教育导向形式主义。&lt;/p&gt;
+
+&lt;p&gt;我在台上演讲的时候，老梁（我们对梁森山老师的称呼）就在现场。他是来参加我校负责的特别节目——一个以“展望创客教育十年”为主题的沙龙活动。严格说，他和吴俊杰、傅骞、丁书林等老师，是专门来为我鼓掌的。这颇让我感动。在那段颇为困难的时期，我们彼此之间都有了那种抱团取暖、相互依赖的特殊感情。&lt;/p&gt;
+
+&lt;p&gt;创客教育的实施，需要“课程、空间、活动”三位一体。这已经成为我们这批教育创客们的共识。“课程、空间、活动”其实还是评价创客教育的几个重要维度。对有钱的学校来说，建一个创客空间或许很容易，但同时还要开设课程，组织创客活动就不容易做到了，这要真刀真枪地干起来。同样，那些以科创竞赛获奖而出名的学校，我们也可以用这样的评价指标，引导他们除了参加竞赛，还要开设普惠的课程，要建设能够向所有学生开放的创客空间。&lt;/p&gt;
+
+&lt;p&gt;为了有效引领国内的创客教育，老梁在幕后做了很多努力。在我们的圈子内部，往往用“扫地僧”来称呼他。2015年，他花了很多精力编写了一本《中国创客教育蓝皮书（基础教育版）》，记录创客教育发展史上的一些故事，成为研究中国创客教育的必读书籍。他还通过各种人脉，帮我们这些早期教育创客建立一个组织，就是大家熟悉的中国电子学会现代教育技术分会创客教育专委会（现在更名为中国电子学会现代教育技术分会创客教育专家组），每年一次的STEAM教育大会从此有了国家级的主办方。申报教育部教育装备研究与发展中心的课题，也是在2015年做的一项重要工作。他申报的课题名称为《校园创客活动与创客空间建设案例研究》，我应邀参与，并作为这个课题组的核心成员开展研究工作。&lt;/p&gt;
+
+&lt;p&gt;经过四年的努力，我们回头看看，这个课题已经完成了当时的既定目标：了解当前校园创客空间建设和校园创客活动的基本情况，在此基础上形成研究报告。围绕“如何建设校园创客空间”和“如何开展校园创客活动”等问题，精选国内案例，帮助基层教育工作者有序地开展创客教育。&lt;/p&gt;
+
+&lt;p&gt;创客教育能够坚持多久？我们不敢轻易预言，只能用十年来作为一个节点，一步一步地完成目标。最早的十年目标，是我在2015年的一次全国会议上提出，算起来差不多过了一半时间。虽然当时担心的一些情况也有发生，但总体上创客教育的发展情况良好。全国各地相继出台了实施或者推进创客教育的政策，创客空间如雨后春笋般建立，开源硬件写入了高中信息技术课程标准，“创意物化”成为中小学综合实践活动课程的重要目标，国产开源硬件项目“虚谷计划”启动并得到广泛支持。&lt;/p&gt;
+
+&lt;p&gt;创客教育何以持续十年？因为有老梁在内的很多教育创客的坚持。他们之中有教育管理部门的领导，也有高校的知名专家，有些在幕前摇旗呐喊，有些在幕后默默支持。没有他们的共同努力，就不会有创客教育的今天。&lt;/p&gt;
+
+&lt;p&gt;如果有人问老梁，这些年的最大感受是什么？我想老梁会回答：虽然很累，但痛并快乐着。如果有人问我，这些年的最大收获是什么？我会回答：大家都还在呢，一群人会走得很远。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-14-【随笔】为梁森山新书写的序/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;购买链接：&lt;a href=&quot;https://item.jd.com/67911009902.html&quot;&gt;&lt;span class=&quot;underline&quot;&gt;https://item.jd.com/67911009902.html&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">给梁森山新书写的序：创客教育何以持续十年</summary></entry><entry><title type="html">【教程】fastpages汉化版使用说明</title><link href="/blog/2020/04/13/%E6%95%99%E7%A8%8B-fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html" rel="alternate" type="text/html" title="【教程】fastpages汉化版使用说明" /><published>2020-04-13T00:00:00-05:00</published><updated>2020-04-13T00:00:00-05:00</updated><id>/blog/2020/04/13/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E</id><content type="html" xml:base="/blog/2020/04/13/%E6%95%99%E7%A8%8B-fastpages%E6%B1%89%E5%8C%96%E7%89%88%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html">&lt;p&gt;1 登录自己的github账户，访问：https://github.com/EasonQYS/fastpagesJupyter ，找到下面这个蓝色的字并点击，&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image1.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在自己的账户下生成一个仓库（仓库名不能使用&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image2.png&quot; alt=&quot;&quot; /&gt;），用于运行网页。&lt;/p&gt;
 
 &lt;p&gt;2 稍等片刻（约30秒），你的github邮箱会收到一封邮件，指导你接下来的步骤。由于邮件是英文版，请参考README文档。&lt;/p&gt;
 
@@ -983,27 +1071,27 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 
 &lt;p&gt;操作过程截图：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image3.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image3.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image6.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image5.png&quot; alt=&quot;&quot; /&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image6.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;点击Add key后需要输入github密码。&lt;/p&gt;
 
 &lt;p&gt;3查看Actions，绿色对勾表示初始化完成。（这一步没有意义）&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image7.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image7.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;4在&lt;a href=&quot;https://github.com/EasonQYS/fastpagesJupyter/settings&quot;&gt;https://github.com/EasonQYS/fastpagesJupyter/settings&lt;/a&gt; settings页面下滑找到&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image8.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image8.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;选择master branch，等待&lt;a href=&quot;https://github.com/EasonQYS/fastpagesJupyter/actions&quot;&gt;https://github.com/EasonQYS/fastpagesJupyter/actions&lt;/a&gt; 显示成功。&lt;/p&gt;
 
 &lt;p&gt;5如果运行正常，会生成一个新的branch，名为gh-pages。需要将网页改至该路径。（若干没有，可以先进行后续操作。稍后在回来做这一步）&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image9.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image9.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;至此，网站已经可以显示了。&lt;/p&gt;
 
@@ -1015,11 +1103,11 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 
 &lt;p&gt;相关修改参考见截图&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;若要修改网页标题，则修改&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image11.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image11.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;若要修改网页内容，则修改index.html文件。&lt;/p&gt;
 
@@ -1027,7 +1115,7 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 
 &lt;p&gt;7 如果没有做第5步，现在做。做完后网站正常显示。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image12.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image12.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;8 上传Jupyter文件&lt;/p&gt;
 
@@ -1035,9 +1123,9 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 
 &lt;p&gt;但是也有要求，第一个单元格内要以Markdown形式写：&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image13.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image13.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image14.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image14.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;写完上传至_notebooks目录。如果是本地克隆文件夹，那么记得同步至github云端。&lt;/p&gt;
 
@@ -1045,7 +1133,7 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 
 &lt;p&gt;9 类似的，Markdown文件在_posts目录下，也能自动转换。&lt;/p&gt;
 
-&lt;p&gt;同样，有格式要求。（支持中文名）&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image15.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;同样，有格式要求。（支持中文名）&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image15.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;当然，少一点也行，这是一个例子：&lt;/p&gt;
 
@@ -1075,11 +1163,11 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 
 &lt;p&gt;2、若上传多个文档，其中一个报错，同批所有文档都不显示。故每次上传一个文档为佳，利于排查。每个文档生成网页的时间大约在2分钟左右。需要等待至Action成绿色√才表示完成，可以查看网页。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image16.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image16.tmp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;3、可加载网页图片，但不能加载本地图片（文档中自带的图片）。例如下图方式添加的图片不能显示。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-fastpages汉化版使用说明/media/image17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">1 登录自己的github账户，访问：https://github.com/EasonQYS/fastpagesJupyter ，找到下面这个蓝色的字并点击，</summary></entry><entry><title type="html">虚谷号jupyter入门教程</title><link href="/blog/2020/04/10/%E8%99%9A%E8%B0%B7%E5%8F%B7Jupyter%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.html" rel="alternate" type="text/html" title="虚谷号jupyter入门教程" /><published>2020-04-10T00:00:00-05:00</published><updated>2020-04-10T00:00:00-05:00</updated><id>/blog/2020/04/10/%E8%99%9A%E8%B0%B7%E5%8F%B7Jupyter%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B</id><content type="html" xml:base="/blog/2020/04/10/%E8%99%9A%E8%B0%B7%E5%8F%B7Jupyter%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.html">&lt;p&gt;&lt;strong&gt;虚谷号Jupyter入门教程&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-13-【教程】fastpages汉化版使用说明/media/image17.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">1 登录自己的github账户，访问：https://github.com/EasonQYS/fastpagesJupyter ，找到下面这个蓝色的字并点击，</summary></entry><entry><title type="html">【教程】虚谷号jupyter入门</title><link href="/blog/2020/04/10/%E6%95%99%E7%A8%8B-%E8%99%9A%E8%B0%B7%E5%8F%B7Jupyter%E5%85%A5%E9%97%A8.html" rel="alternate" type="text/html" title="【教程】虚谷号jupyter入门" /><published>2020-04-10T00:00:00-05:00</published><updated>2020-04-10T00:00:00-05:00</updated><id>/blog/2020/04/10/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E8%99%9A%E8%B0%B7%E5%8F%B7Jupyter%E5%85%A5%E9%97%A8</id><content type="html" xml:base="/blog/2020/04/10/%E6%95%99%E7%A8%8B-%E8%99%9A%E8%B0%B7%E5%8F%B7Jupyter%E5%85%A5%E9%97%A8.html">&lt;p&gt;&lt;strong&gt;虚谷号Jupyter入门教程&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;1.1 什么是Jupyter&lt;/strong&gt;&lt;/p&gt;
 
@@ -1097,13 +1185,13 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 
 &lt;p&gt;虚谷号上提供了很多学习笔记，默认放在“vvBoardbook”文件夹中。通过浏览这些学习笔记，可以快速掌握Python代码，了解虚谷号的基本功能。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-10-虚谷号Jupyter入门教程/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-10-【教程】虚谷号Jupyter入门/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;这些学习笔记中，有文字、图片还有Python代码。笔记中的代码可以即时编辑，还可以在线执行，并且能够返回运行结果。&lt;/p&gt;
 
 &lt;p&gt;用鼠标选中代码输入框（jupyter中称为“单元格”），单元格出现蓝色或者绿色边框，表示被选中。在菜单中选择“执行”命令，单元格的下方将出现单元格代码执行效果。执行完毕后，“in [ ]”中的括号将出现一个数字，表示单元格代码运行的次序。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-10-虚谷号Jupyter入门教程/media/image2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-10-【教程】虚谷号Jupyter入门/media/image2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;1.3 Jupyter可以做什么&lt;/strong&gt;&lt;/p&gt;
 
@@ -1117,7 +1205,7 @@ jupyter nbextension enable --py --sys-prefix ipyturtle&lt;/p&gt;
 
 &lt;p&gt;通过“新建”-“终端”，即可打开Web界面的终端。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-10-虚谷号Jupyter入门教程/media/image3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/img/2020-04-10-【教程】虚谷号Jupyter入门/media/image3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;在仿真的终端页面，Jupyter几乎支持所有的命令，如安装软件、安装Python库文件、运行Python程序等。当关闭窗口后，再次打开，还能够看到之前的命令运行状态。&lt;/p&gt;
 
